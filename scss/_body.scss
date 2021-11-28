@@ -1,0 +1,48 @@
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form__queresJugar{
+    color: black;
+    border: solid 5px black;
+    background-color: rgba(196, 237, 252, 0.61);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.p__italica {
+    font-style: italic;
+}
+
+body {
+    background-image: url(https://w0.peakpx.com/wallpaper/961/328/HD-wallpaper-axie-4-infinity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body__explicaciones {
+    border: solid 5px black;
+    background-color: rgba(196, 237, 252, 0.514);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    display: inline-flex;
+}
+
+.body__iframe {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.body__video {
+    padding-left: 30px;
+}
+

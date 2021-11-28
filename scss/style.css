@@ -1,0 +1,195 @@
+@charset "UTF-8";
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-style: italic;
+}
+
+footer .footer__informacion {
+  background-color: rgba(196, 237, 252, 0.514);
+  border: 3px solid black;
+  padding: 30px;
+  width: 300px;
+}
+
+footer footer {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form__queresJugar {
+  color: black;
+  border: solid 5px black;
+  background-color: rgba(196, 237, 252, 0.61);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.p__italica {
+  font-style: italic;
+}
+
+body {
+  background-image: url(https://w0.peakpx.com/wallpaper/961/328/HD-wallpaper-axie-4-infinity.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body__explicaciones {
+  border: solid 5px black;
+  background-color: rgba(196, 237, 252, 0.514);
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.body__iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body__video {
+  padding-left: 30px;
+}
+
+h1 {
+  color: black;
+  font: bold;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+h1 h1 {
+  font-size: 400%;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  letter-spacing: 3px;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#grillaxies {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: ". Health Speed Skill Morale" "Aquatic 45 57 35 27" "Beast 31 41 31 61" "Bird 27 61 35 41" "Bug 41 31 35 57" "Plant 61 31 31 41" "Reptile 57 41 31 35";
+  -ms-grid-rows: (50px)[7];
+      grid-template-rows: repeat(7, 50px);
+  grid-row-gap: 2px;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 2px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(196, 237, 252, 0.692);
+}
+
+.tamaño-1 {
+  width: 100px;
+}
+
+.tamaño-2 {
+  width: 200px;
+}
+
+.tamaño-3 {
+  width: 300px;
+}
+
+.tamaño-4 {
+  width: 400px;
+}
+
+.tamaño-5 {
+  width: 500px;
+}
+
+.tamaño-6 {
+  width: 600px;
+}
+
+.bird-icon {
+  background-image: url("../img/bird.jpeg");
+}
+
+.beast-icon {
+  background-image: url("../img/beast.jpeg");
+}
+
+.plant-icon {
+  background-image: url("../img/plant.jpeg");
+}
+
+.aquas-icon {
+  background-image: url("../img/aquas.jpeg");
+}
+
+.btn--queresJugar {
+  color: Black;
+}
+
+.btn--axieInfinity {
+  color: Blue;
+}
+
+.btn--axies {
+  color: Black;
+}
+
+.btn--cartas {
+  color: Blue;
+}
+/*# sourceMappingURL=style.css.map */

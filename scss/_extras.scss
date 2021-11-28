@@ -1,0 +1,18 @@
+@for $width from 1 through 6 {
+    .tamaño-#{$width} { width: 100px * $width; } 
+}
+
+@each $carta in bird, beast, plant, aquas {
+    .#{$carta}-icon {background-image: url('../img/#{$carta}.jpeg');}
+}
+
+$navs: (
+        queresJugar: Black,
+        axieInfinity:  Blue,
+        axies: Black,
+        cartas: Blue
+); 
+
+@each $nav, $color in $navs {
+    .btn--#{$nav} {color: $color;}
+}
